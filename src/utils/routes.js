@@ -1,8 +1,8 @@
-import Admin from "../pages/Admin";
-import Auth from "../pages/Auth";
-import Basket from "../pages/Basket";
-import Product from "../pages/Product";
-import Shop from "../pages/Shop";
+import Admin from "../pages/Admin/Admin";
+import Auth from "../pages/Auth/Auth";
+import Basket from "../pages/Basket/Basket";
+import Product from "../pages/Product/Product";
+import Shop from "../pages/Shop/Shop";
 import {
   ADMIN_ROUTE,
   BASKET_ROUTE,

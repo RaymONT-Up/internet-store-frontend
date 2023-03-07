@@ -1,6 +1,6 @@
 import React from "react";
-import FormLogin from "../components/FormLogin/FormLogin";
-import Container from "../components/UI/Container/Container";
+import AuthForm from "../../components/AuthForm/AuthForm";
+import Container from "../../components/UI/Container/Container";
 
 const Auth = () => {
   return (
@@ -12,7 +12,7 @@ const Auth = () => {
         justifyContent: "center",
       }}
     >
-      <FormLogin />
+      <AuthForm />
     </Container>
   );
 };

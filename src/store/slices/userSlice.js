@@ -17,5 +17,5 @@ const userSlice = createSlice({
     },
   },
 });
-export const cartActions = userSlice.actions;
+export const userAction = userSlice.actions;
 export default userSlice;

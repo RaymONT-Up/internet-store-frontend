@@ -4,8 +4,9 @@ import { LOGIN_ROUTE, REGISTRATION_ROUTE } from "../../utils/consts";
 import Button from "../UI/Button/Button";
 import Card from "../UI/Card/Card";
 import Input from "../UI/Input/Input";
-import styles from "./FormLogin.module.scss";
-const FormLogin = () => {
+import styles from "./AuthForm.module.scss";
+
+const AuthForm = () => {
   const location = useLocation();
   const isLogin = location.pathname === LOGIN_ROUTE;
 
@@ -49,4 +50,4 @@ const FormLogin = () => {
   );
 };
 
-export default FormLogin;
+export default AuthForm;
