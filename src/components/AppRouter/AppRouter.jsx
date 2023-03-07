@@ -3,8 +3,10 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import { authRoutes, publicRoutes } from "../../utils/routes";
 import { SHOP_ROUTE } from "../../utils/consts";
 import NotFound from "../NotFound/NotFound";
+import { useSelector } from "react-redux";
 const AppRouter = () => {
-  const isAuth = true;
+  const isAuth = useSelector(store => store.user.isAuth);
+  console.log(isAuth);
   return (
     <Routes>
       {isAuth &&

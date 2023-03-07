@@ -1,0 +1,27 @@
+.card {
+  max-width: 600px;
+  width: 100%;
+}
+.title {
+  font-size: 26px;
+
+  text-align: center;
+}
+.input {
+  width: 100%;
+  margin-bottom: 15px;
+
+  text-align: center;
+}
+.button {
+  margin-top: 15px;
+  width: 100%;
+}
+.paragraph {
+  font-size: 18px;
+  font-weight: 500;
+  &__link {
+    padding: 5px;
+    color: green;
+  }
+}

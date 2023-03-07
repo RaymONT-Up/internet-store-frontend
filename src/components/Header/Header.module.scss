@@ -1,0 +1,16 @@
+.header {
+  padding: 15px 0;
+  margin-bottom: 10px;
+
+  background-color: var(--bg-card-color);
+
+  &__inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.button {
+  margin: 0 5px;
+}
