@@ -1,5 +1,7 @@
 .item {
+  margin: 8px;
   padding: 5px;
   border-radius: 10px;
-  background-color: var(--bg-card-color);
+  background-color: var(--bg-color-card);
+  border: 1px solid red;
 }
